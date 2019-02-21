@@ -24,7 +24,7 @@ Pre-made Item: Chewy Gooey\n\
 Price: $4.00\n\
 -----\n\
 Total: $4.00\n";
-	cout << order1.printBill() << endl;
+	
 	ASSERT_EQUALS(expected,order1.printBill());
 	delete item1;
 
