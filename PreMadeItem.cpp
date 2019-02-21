@@ -27,7 +27,7 @@ PreMadeItem::~PreMadeItem(){
 
 string PreMadeItem::composeItem(){
     string result = "Pre-made Size: ";
-    result += getSize();
+    result += size;
     result += "\n";
     result += "Pre-made Item: ";
     result += this -> name;

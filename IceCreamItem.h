@@ -20,7 +20,7 @@ public:
 	// Returns the dollar amount of an ice cream item.
 	virtual double getPrice() = 0;
 
-        std::string getSize();
+//        std::string getSize();
 protected:
 	double price;
 	std::string size;

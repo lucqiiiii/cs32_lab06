@@ -24,7 +24,7 @@ CustomItem::~CustomItem(){
 }
 
 string CustomItem::composeItem(){
-    string result = "Custom Size: " + getSize() + "\n";
+    string result = "Custom Size: " + size + "\n";
     result += "Toppings:\n";
     for(unsigned int i = 0; i < toppings.size(); i++){
         result += toppings[i].first;

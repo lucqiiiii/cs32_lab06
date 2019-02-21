@@ -11,7 +11,7 @@ IceCreamItem::IceCreamItem(string size){
 /*string IceCreamItem::composeItem(){
     return "";
 }
-*/
+
 string IceCreamItem::getSize(){
     return size;
-}
+}*/
